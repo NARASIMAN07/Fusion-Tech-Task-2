@@ -1,0 +1,8 @@
+
+Step 1:
+Open terminal in Kali Linux and type the following command:
+zip2john your_file.zip > zip.hash
+
+Step 2:
+After getting a hash file crack the file with john
+john zip.hash
